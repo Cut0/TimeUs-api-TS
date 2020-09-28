@@ -1,4 +1,7 @@
-*.env
+mysql.env
+app.env
+ormconfig.json
+
 # compiled output
 api/dist
 api/node_modules

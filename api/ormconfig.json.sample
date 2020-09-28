@@ -1,0 +1,16 @@
+{
+  "type": "mysql",
+  "host": "mysql",
+  "port": 3306,
+  "username": "ユーザー名",
+  "password": "パスワード",
+  "database":"データベース名",
+  "synchronize": false,
+  "entities": [
+      "dist/entities/**/*.entity.js"
+  ],
+  "migrations": [
+      "dist/migrations/**/*.js"
+  ],
+  "logging": true
+}
